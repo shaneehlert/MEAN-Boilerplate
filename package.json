@@ -1,0 +1,25 @@
+{
+  "name": "MEAN-Boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for a default MEAN stack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srobertson421/MEAN-Boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srobertson421/MEAN-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/srobertson421/MEAN-Boilerplate#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.8"
+  }
+}
