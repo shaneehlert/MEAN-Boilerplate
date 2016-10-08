@@ -1,4 +1,4 @@
 angular.module('Home', [])
-.controller('HomeCtrl', ['$scope', function($scope) {
-  $scope.name = 'Sean';
+.controller('HomeCtrl', ['$scope', '$http', function($scope, $http) {
+  $scope.locations = '';
 }]);

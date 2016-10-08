@@ -6,7 +6,7 @@ var router = express.Router();
 
 router.route('/')
 .get(function(req, res) {
-  res.send('Hit base API route');
+  res.send('http://api.population.io:80/1.0/population');
 });
 
 module.exports = router;
